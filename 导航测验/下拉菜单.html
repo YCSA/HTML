@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .one{
+            width: 1000px;
+            text-align: center;
+            height: 40px;
+            background-color: #5b82d8;
+            margin-top: 50px;
+            position: relative;
+        }
+        .one-a{
+            position: relative;
+        }
+        .rom{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .one li{
+            display: inline-block;
+            width: 300px;
+            line-height: 40px;
+            color: white;
+            float: left;
+        }
+        .two{
+           position: absolute;
+            background-color: #b2b2b2;
+            width: 300px;
+            display: none;
+        }
+        .two a{
+            display: block;
+            box-sizing: border-box;
+            border-bottom: 1px solid #ededed;
+        }
+        .one-a:hover .two{
+            display:block;
+        }
+        .one-a .two a:hover{
+            background-color: #02e7fb;
+            color: #0456f9;
+        }
+        .one-b:hover .two{
+            display:block;
+        }
+        .one-b .two a:hover{
+            background-color: #02e7fb;
+            color: #0456f9;
+        }
+        .one-c:hover .two{
+            display:block;
+        }
+        .one-c .two a:hover{
+            background-color: #02e7fb;
+            color: #0456f9;
+        }
+    </style>
+</head>
+<body>
+<div class="one rom">
+    <ul>
+        <li class="one-a">
+            <a href="#">手机</a>
+            <div class="two">
+                <a href="#">小米</a>
+                <a href="#">魅族</a>
+                <a href="#">VIVO</a>
+                <a href="#">OPPO</a>
+            </div>
+        </li>
+        <li class="one-b">
+            <a href="#">电脑</a>
+            <div class="two">
+                <a href="#">戴尔</a>
+                <a href="#">联想</a>
+                <a href="#">华硕</a>
+                <a href="#">技嘉</a>
+            </div>
+
+        </li>
+        <li class="one-c">
+            <a href="#">电视</a>
+            <div class="two">
+                <a href="#">乐视</a>
+                <a href="#">微鲸</a>
+                <a href="#">小米</a>
+            </div>
+        </li>
+    </ul>
+
+</div>
+</body>
+</html>

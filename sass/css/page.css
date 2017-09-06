@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.top {
+  width: 1920px;
+  height: 40px;
+  background-color: #fafafa;
+  border-bottom: 1px solid #cccccc; }
+
+.top-a {
+  width: 1240px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.top-b {
+  line-height: 40px;
+  float: left; }
+
+.top-c {
+  line-height: 40px;
+  float: right; }
+
+.da {
+  width: 1240px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.top-d {
+  background: url("../images/logo.png") no-repeat;
+  height: 70px;
+  width: 1240px;
+  margin-top: 30px; }
+
+.top-d-a {
+  width: 120px;
+  height: 70px;
+  float: right; }
+
+.top-d-a button {
+  width: 120px;
+  height: 40px;
+  background: #ffdb3d url("../images/shopcar.png") no-repeat 20px center;
+  border: none; }
+
+.top-d-a p {
+  color: #666;
+  font-size: 12px;
+  background: url("../images/clock.png") no-repeat;
+  text-indent: 20px;
+  margin-bottom: 15px; }
+
+.top-d-b {
+  width: 340px;
+  height: 40px;
+  float: right;
+  margin-top: 30px;
+  margin-right: 10px;
+  border: 1px solid #cccccc; }
+
+.top-d-b input {
+  width: 300px;
+  height: 40px;
+  border: none; }
+
+.top-d-b span {
+  background: url("../images/fangdajing.png") no-repeat center center;
+  width: 39px;
+  height: 40px;
+  border-left: 1px solid #cccccc;
+  display: inline-block;
+  float: right; }
+
+.nav {
+  width: 1240px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  overflow: hidden; }
+
+.nav-a {
+  width: 248px;
+  background: #ff4a00;
+  float: left; }
+
+.nav-a a {
+  line-height: 40px;
+  font-size: 18px;
+  color: white;
+  margin-left: 20px; }
+
+.nav-b {
+  width: 992px;
+  background: #404144;
+  float: right; }
+
+.nav-b li a {
+  line-height: 40px;
+  color: white;
+  font-size: 18px;
+  margin-right: 20px;
+  margin-left: 20px; }
+
+.nav-c {
+  width: 248px;
+  height: 100%;
+  float: left; }
+
+.nav-c-a {
+  width: 248px;
+  height: 73px;
+  border-left: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc; }
+
+.nav-c-a p {
+  line-height: 40px;
+  color: #ff4a00;
+  text-indent: 20px; }
+
+.nav-c-a ul li:first-child {
+  text-indent: 20px; }
+
+.nav-d {
+  background: url("../images/banner5.png") no-repeat;
+  width: 992px;
+  height: 420px;
+  float: right; }
+
+/*# sourceMappingURL=page.css.map */

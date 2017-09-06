@@ -1,0 +1,12 @@
+li{
+    display: inline-block;
+    font-size: 12px;
+    color: #666666;
+}
+.wid{
+    width: 1240px;
+}
+button{
+    border: none;
+    background-color: white;
+}

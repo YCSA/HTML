@@ -1,0 +1,319 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@mixin ct($c:auto,$t:auto){
+  margin-left: $c;margin-right: $t;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #666;
+  font-size: 12px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@mixin wh($w:1920px,$h:40px,$bj:#fafafa){
+  width: $w;
+  height: $h;
+  background-color: $bj;
+}
+@mixin qc($q:none,$c:#666,$d:inline-block){
+  list-style: $q;
+  text-decoration: $q;
+  color: $c;
+  display:$d;
+}
+@mixin lj($q:none,$z:#666){
+  text-decoration:$q;
+  color: $z;
+}
+@mixin wt($w:1240px,$h:100%){
+  width: $w;
+  height: $h;
+  margin-left: auto;margin-right: auto;
+}
+@mixin lg($l:40px){
+  line-height: $l;
+}
+@mixin fl($f:left){
+  float: $f;
+}
+@mixin fr($f:right){
+  float: $f
+}
+@mixin wz($c:#666,$f:12px){
+  color: $c;
+  font-size: $f;
+}
+@mixin qcfd($q:hidden){
+  overflow: $q;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.top{
+  @include wh;
+  border-bottom: 1px solid #cccccc;
+}
+.top-a{
+  @include wt;
+}
+.top-b{
+  @include lg;
+  @include fl;
+}
+.top-c{
+  @include lg;
+  @include fr;
+}
+.top-b li,.top-c li{
+  display: inline-block;
+}
+.da{
+  @include wt;
+  height: 1300px;
+}
+.nav{
+  width: 100%;
+  background: url("../images/logo.png") no-repeat ;
+  height: 70px;
+  margin-top: 30px;
+}
+.nav button{
+  width: 150px;
+  height: 42px;
+  background: #ffdd3d url("../images/shopcar.png") no-repeat 30px center;
+  border: none;
+  font-size: 14px;
+  @include fr;
+  margin-top: 30px;
+}
+.ss{
+  width: 357px;
+  height: 40px;
+  @include fr;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+.ss input{
+  width: 310px;
+  height: 40px;
+  outline: none;
+}
+.ss span{
+  @include fr;
+  display: inline-block;
+  width: 43px;height: 44px;
+  box-sizing: border-box;
+  border: 1px solid #b2b2b2;
+  border-left: none;
+  background: url("../images/fangdajing.png") no-repeat center center;
+}
+.nav p{
+  color: #b2b2b2;
+  background: url("../images/clock.png") no-repeat 0px center;
+  @include fr;
+  text-indent: 20px;
+  margin-right: -518px;
+  font-size: 13px;
+}
+.nav-a{
+  width: 100%;
+  height: 50px;
+  background-color: #404145;
+  margin-top: 30px;
+}
+.nav-b{
+  background: #ff4a00;
+  width: 300px;
+  height: 100%;
+  @include fl;
+  font-size: 18px;
+  line-height: 50px;
+  text-indent: 20px;
+}
+.nav-b a{
+  color: white;
+  font-size: 18px;
+}
+.nav-c{
+  width: 940px;
+  line-height: 50px;
+  display: inline-block;
+  @include fr;
+}
+.nav-c li{
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 15px;
+  text-indent: 20px;
+}
+.nav-c li a{
+  color: white;
+  font-size: 18px;
+}
+.nav-d{
+  line-height: 40px;
+  font-size: 12px;
+  color: #7f7f7f;
+}
+.nav-e{
+  font-size: 18px;
+  line-height: 40px;
+  color: #777;
+  border-bottom: 1px solid #dfdfdf;
+  margin-bottom: 40px;
+}
+.quan{
+  width: 100%;
+  height: 870px;
+
+}
+.quan-a{
+  width: 100%;
+  height: 50%;
+  margin-bottom: 90px;
+}
+.quan-b{
+  width: 20%;
+  height: 100%;
+  box-sizing: border-box;
+  border-right: 1px solid #dfdfdf;
+  @include fl;
+}
+.quan-b li{
+  font-size: 12px;
+  color: #7f7f7f;
+  line-height: 28px;
+}
+.quan-b li:not(:first-child){
+  text-indent: 20px;
+}
+.quan-b li:first-child{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.quan-b li:nth-child(2){
+  font-size: 18px;
+}
+.quan-c{
+  width: 100%;
+  height: 50%;
+}
+.quan-d{
+  border: none;
+}
+.end{
+  width: 1920px;
+  height: 537px;
+  background-color: #FAFAFA;
+}
+.end-a{
+  @include ct;
+  width: 1240px;
+  height: 160px;
+}
+.end-b{
+  width: 20%;
+  height: 160px;
+  @include fl;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 50px;
+  border-bottom: 1px solid #ebebeb;
+}
+.end-b p{
+  line-height: 40px;
+}
+.end-c{
+  @include ct;
+  width: 1240px;
+  height: 200px;
+  border-bottom: 1px solid #ebebeb;
+
+}
+.end-d{
+  width: 290px;
+  height: 140px;
+  text-align: center;
+  @include fr;
+  box-sizing: border-box;
+  margin-top: 30px;
+}
+.end-d-wz{
+  font-size: 30px;
+  line-height: 40px;
+}
+.end-d-wx{
+  font-size: 12px;
+  line-height: 20px;
+}
+.end-d button{
+  width: 150px;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  background-color: #ff4a00;
+  border: none;
+  margin-top: 15px;
+}
+.end-e{
+  width: 950px;
+  overflow: hidden;
+  @include fl;
+  margin-top: 50px;
+}
+.end-e ul{
+  @include fl;
+  width: 20%;
+  font-size: 14px;
+}
+.end-e ul li{
+  line-height: 28px;
+  width: 160px;
+  border-right: 1px solid #ebebeb;
+}
+.end-e ul li:first-child a{
+  font-size: 20px;
+}
+.end-f{
+  width: 1240px;
+  height:175px;
+  box-sizing: border-box;
+  padding-top: 40px;
+  text-align: center;
+  @include ct;
+}
+.end-f ul{
+  margin-left: 220px;
+}
+.end-f li{
+  margin-right: 5px;
+  color: #999;
+  @include fl;
+}
+.end-f p{
+  font-size: 12px;
+  line-height: 30px;
+}
+.end-i{
+  margin-right: 270px;
+  margin-top:15px;
+  box-sizing: border-box;
+  width: 450px;
+  height: 44px;
+  @include fr;
+  background: url("../images/16.png") no-repeat 0px 10px;
+}
+.end-i input{
+  width: 230px;
+  height: 40px;
+  margin-left:150px;
+}

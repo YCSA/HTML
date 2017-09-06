@@ -1,0 +1,98 @@
+@mixin wh($w:1920px,$h:40px,$bj:#fafafa){
+  width: $w;
+  height: $h;
+  background-color: $bj;
+}
+@mixin qc($q:none,$c:#666,$d:inline-block){
+  list-style: $q;
+  text-decoration: $q;
+  color: $c;
+  display:$d;
+}
+@mixin lj($q:none,$z:#666){
+  text-decoration:$q;
+  color: $z;
+}
+@mixin wt($w:1240px,$h:100%){
+  width: $w;
+  height: $h;
+  margin-left: auto;margin-right: auto;
+}
+@mixin lg($l:40px){
+  line-height: $l;
+}
+@mixin fl($f:left){
+  float: left;
+}
+@mixin fr($f:right){
+  float: right;
+}
+@mixin wz($c:#666,$f:12px){
+  color: $c;
+  font-size: $f;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.top{
+  @include wh;
+  border-bottom: 1px solid #cccccc;
+}
+.top-a{
+  @include wt;
+}
+.top-b{
+  @include lg;
+  @include fl;
+}
+.top-c{
+  @include lg;
+  @include fr;
+}
+.da{
+  @include wt;
+}
+.top-d{
+  background: url("../images/logo.png") no-repeat;
+  height: 70px;
+  width: 1240px;
+  margin-top: 30px;
+}
+.top-d-a{
+  width: 120px;
+  height: 70px;
+  @include fr;
+}
+.top-d-a button{
+  width: 120px;
+  height: 40px;
+  background: #ffdb3d url("../images/shopcar.png")no-repeat 20px center;
+  border: none;
+}
+.top-d-a p{
+  @include wz;
+  background: url("../images/clock.png") no-repeat;
+  text-indent: 20px;
+  margin-bottom: 15px;
+}
+.top-d-b{
+  width: 340px;
+  height: 40px;
+  @include fr;
+  margin-top: 30px;
+  margin-right: 10px;
+  border: 1px solid #cccccc;
+}
+.top-d-b input{
+  width: 300px;
+  height: 40px;
+  border: none;
+}
+.top-d-b span{
+  background: url("../images/fangdajing.png") no-repeat center center;
+  width: 39px;height: 40px;
+  border-left: 1px solid #cccccc;
+  display: inline-block;
+  @include fr;
+}

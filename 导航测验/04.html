@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        .one{
+            width: 1000px;;
+            background-color: #666666;
+            line-height: 50px;
+            text-align: center;
+        }
+        .one:after{
+            display: table;
+            content: "";
+            clear: both;
+        }
+        .one_ml li {
+            display: inline-block;
+            list-style: none;
+            float: left;
+            width: 100px;
+
+        }
+        .one_ml li:hover{
+            background-color: #0456f9;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div class="one">
+    <ul class="one_ml">
+        <li>苹果</li>
+        <li>华为</li>
+        <li>魅族</li>
+        <li>小米</li>
+    </ul>
+
+</div>
+
+</body>
+</html>

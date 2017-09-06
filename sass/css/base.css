@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0; }
+a{
+    text-decoration: none;
+    color: #666666;
+    font-size: 12px;
+}
+*{margin:0;padding:0}
+.row:before{
+    content:"";
+    display: table;
+}
+body{
+    color:#333;
+    font-size: 12px;
+}
+.row:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+.tc{
+    text-align: center;
+}
+ul{list-style: none}
+
+table{
+    border-collapse: collapse;
+}

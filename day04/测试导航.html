@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        .one{
+           line-height: 50px;
+            text-align: center;
+            background-color: #666666;
+
+        }
+        .one li{
+            float: left;
+            width: 100px;
+            list-style: none;
+            color: white;
+        }
+        .row:after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .one li:hover{
+            background-color: #c2a599;
+            color:orange;
+        }
+
+    </style>
+</head>
+<body>
+<ul class="one row">
+    <li>男装</li>
+    <li>女装</li>
+    <li>鞋子</li>
+    <li>包包</li>
+</ul>
+
+</body>
+</html>

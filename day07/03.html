@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .box{
+            width: 1200px;
+            height: 400px;
+            box-sizing: border-box;
+            border: 1px solid silver;
+            margin-right: auto;
+            margin-left: auto;
+
+        }
+        .box>div{
+            width: 25%;
+            height: 400px;
+            float: left;
+            position: relative;
+        }
+        /*.one:before{*/
+            /*content: "";*/
+            /*display: block;*/
+            /*position: absolute;*/
+            /*width: 1px;*/
+            /*height: 100%;*/
+            /*background-color: silver;*/
+        /*}*/
+        .box>div:not(:first-child):before{
+            content: "";
+            display: block;
+            position: absolute;
+            width: 1px;
+            height: 100%;
+            background-color: silver;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <div>werwerw</div>
+    <div class="one">erwerwe</div>
+    <div class="one"></div>
+    <div class="one"></div>
+</div>
+
+ul>li.one$*4>a[#][title=good]{hello world}
+</body>
+</html>

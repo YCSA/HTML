@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            letter-spacing: 30px;
+        }
+        .rom{
+            display: table;
+            content: "";
+            clear: both;
+        }
+        .one{
+            width: 1000px;
+            height: 50px;
+            background-color: #b2b2b2;
+            margin-left: 50px;
+            margin-top: 50px;
+        }
+        .one li{
+            display: inline-block;
+            float: left;
+            width: 25%;
+            line-height: 50px;
+            text-align: center;
+            box-sizing: border-box;
+            border-right: 1px solid white;
+        }
+        .one li:first-child{
+            position:relative;
+        }
+        .two{
+            display: none;
+            width: 250px;
+            position: absolute;
+        }
+        .two a{
+            display: block;
+            text-align: center;
+            box-sizing: border-box;
+            border-bottom: 1px solid white;
+        }
+        .two a span{
+            display: inline-block;
+            width: 120px;
+            letter-spacing: 30px;
+            text-align: center;
+        }
+        .one li:first-child:hover .two{
+            display: block;
+            background-color: cadetblue;
+        }
+        .one li:first-child:hover .two a:hover{
+            color: wheat;
+            background-color: #cccccc;
+        }
+    </style>
+</head>
+<body>
+<ul class="one rom">
+    <li><a href="#">手机</a>
+        <div class="two">
+            <a href="#"><span>华为</span></a>
+            <a href="#"><span>联想</span></a>
+            <a href="#"><span>努比亚</span></a>
+            <a href="#"><span>小米</span></a>
+            <a href="#"><span>魅族</span></a>
+            <a href="#"><span>三星</span></a>
+            <a href="#"><span>苹果</span></a>
+            <a href="#"><span>LG</span></a>
+        </div>
+    </li>
+    <li><a href="#">电脑</a></li>
+    <li><a href="#">音箱</a></li>
+    <li><a href="#">电视</a></li>
+</ul>
+</body>
+</html>

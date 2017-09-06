@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        ul li:first-child{
+            background-color: red;
+        }
+        ul li:last-child{
+            background-color: #02e7fb;
+        }
+        ul li:not(:first-child){
+            font-size: 20px;
+        }
+        ul li:not(:last-child){
+            color: #0456f9;
+        }
+        ul li:nth-child(2){
+            font-family: fantasy;
+        }
+/*        ul li:nth-child(  ) 里面可用 even偶数    odd奇数*/
+    </style>
+</head>
+<body>
+<ul>
+    <li>hello word</li>
+    <li>hello word</li>
+    <li>hello word</li>
+    <li>hello word</li>
+    <li>hello word</li>
+    <li>hello word</li>
+    <li>hello word</li>
+    <li>hello word</li>
+</ul>
+
+</body>
+</html>

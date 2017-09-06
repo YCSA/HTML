@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .one{
+            width: 300px;
+            height: 300px;
+            background-color: #444444;
+            position: absolute;
+
+        }
+        .two{
+            width: 100px;
+            height:100px;
+            background-color:red;
+            position: relative;
+            margin-left: 50px;
+            top: 50px;
+            left: 50px;
+            z-index:5;
+        }
+        .three{
+            width: 200px;
+            height: 200px;
+            background-color: #ff8201;
+            position: relative;
+            top:-100px;
+            z-index:6;
+        }
+        .three:hover{
+            background-color: aqua;
+            z-index: 4;
+        }
+        .three:focus{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+<div class="one">
+    <div class="two">
+    </div>
+    <div class="three"></div>
+
+</div>
+
+</body>
+</html>
